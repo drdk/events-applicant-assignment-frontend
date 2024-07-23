@@ -12,39 +12,34 @@ Create a simple single-page application (SPA) that reads data from an API endpoi
    - The API returns a JSON object with the following structure:
 
      ```json
+     "id": 181,
+     "validFromDate": "2022-11-01T00:00:00.000Z",
+     "DRPublishDate": "2022-12-20T11:00:00.000Z",
+     "headline": "Om det politiske indeks fra den 1. november 2022: ",
+     "description": "Indekset er lavet på baggrund af i alt 5.548 gennemførte interviews med repræsentativt udvalgte danskere på 18 år og derover, hvoraf 4.416 (80 pct.) har afgivet et partivalg. Den maksimale usikkerhed på de overordnede resultater er +/÷ 1,7 procentpoint. Interviewene er gennemført den 01. november 2022 - 1. november 2022. OBS: I indekset spørges kun til opstillingsberettigede partier. Blokkenes styrkeforhold er beregnet for de partier, der er over spærregrænsen. Derfor kan opgørelsen ikke direkte sammenlignes med partiernes stemmeandele. ",
+     "isElection": true,
+     "DRGenerateDate": "2022-12-20T13:20:20.351Z",
+     "surveyDataPoints": [
+     {
+     "id": 9776,
+     "partyId": "a",
+     "surveyId": 181,
+     "segment": "all",
+     "percentage": 27.5,
+     "mandates": 50
+     },
+     {
+     "id": 9777,
+     "partyId": "b",
+     "surveyId": 181,
+     "segment": "all",
+     "percentage": 3.8,
+     "mandates": 7
+     },
+     // ... more data
+     ]
 
      ```
-
-   "id": 181,
-   "validFromDate": "2022-11-01T00:00:00.000Z",
-   "DRPublishDate": "2022-12-20T11:00:00.000Z",
-   "headline": "Om det politiske indeks fra den 1. november 2022: ",
-   "description": "Indekset er lavet på baggrund af i alt 5.548 gennemførte interviews med repræsentativt udvalgte danskere på 18 år og derover, hvoraf 4.416 (80 pct.) har afgivet et partivalg. Den maksimale usikkerhed på de overordnede resultater er +/÷ 1,7 procentpoint. Interviewene er gennemført den 01. november 2022 - 1. november 2022. OBS: I indekset spørges kun til opstillingsberettigede partier. Blokkenes styrkeforhold er beregnet for de partier, der er over spærregrænsen. Derfor kan opgørelsen ikke direkte sammenlignes med partiernes stemmeandele. ",
-   "isElection": true,
-   "DRGenerateDate": "2022-12-20T13:20:20.351Z",
-   "surveyDataPoints": [
-   {
-   "id": 9776,
-   "partyId": "a",
-   "surveyId": 181,
-   "segment": "all",
-   "percentage": 27.5,
-   "mandates": 50
-   },
-   {
-   "id": 9777,
-   "partyId": "b",
-   "surveyId": 181,
-   "segment": "all",
-   "percentage": 3.8,
-   "mandates": 7
-   },
-   // ... more data
-   ]
-
-   ```
-
-   ```
 
 2. **Front-End Technologies**:
 
