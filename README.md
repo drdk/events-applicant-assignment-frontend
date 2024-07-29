@@ -44,7 +44,7 @@ Create a simple single-page application (SPA) that reads data from an API endpoi
 2. **Front-End Technologies**:
 
    - Use HTML, CSS, and JavaScript.
-   - You may use a front-end framework/library such as React, Vue.js, Angular, or similar if preferred.
+   - You may use a front-end framework/library such as React or similar if preferred.
 
 3. **Visual Representation**:
 
